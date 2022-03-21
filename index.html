@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://hostme-webguest-qa.azurewebsites.net/widgets/style.css">
-    <script type="module" src="https://hostme-webguest-qa.azurewebsites.net/widgets/hostme-widget-reservation.umd.js"></script>
+    <script type="module" src="https://hostme-webguest-qa.azurewebsites.net/widgets/hostme-widget-reservation.es.js"></script>
+    <script type="module" src="https://hostme-webguest-qa.azurewebsites.net/widgets/hostme-widget-reservation.es2.js"></script>
+    <script type="module" src="https://hostme-webguest-qa.azurewebsites.net/widgets/hostme-widget-reservation.es3.js"></script>
     <title>Widget Reservation</title>
   </head>
   <body>
-    <hostme-widget-reservation data-hostme-id="2145" data-widget-type="vertical" data-allow-fast-booking="true" data-preferred-language="en">
+    <hostme-widget-reservation data-hostme-id="2145" data-widget-type="vertical" data-preferred-language="en" data-allow-fast-booking="true">
     </hostme-widget-reservation>
 
     <hostme-widget-reservation data-hostme-id="2145" data-widget-type="horizontal" data-allow-fast-booking="false" data-preferred-language="de" data-time-select="precise">
@@ -26,7 +28,17 @@
     <hostme-widget-reservation data-widget-type="horizontal" data-allow-fast-booking="true" data-preferred-language="uk">
     </hostme-widget-reservation>
 
-    <hostme-widget-reservation data-hostme-id="2145" data-widget-type="button" data-allow-fast-booking="true" data-preferred-language="ru">
+    <hostme-widget-reservation data-hostme-id="2145" data-widget-type="button" data-allow-fast-booking="true" data-preferred-language="da">
     </hostme-widget-reservation>
+
+    <hostme-widget-waiting-list data-hostme-id="2145" data-widget-type="hozintal" data-allow-fast-booking="true" data-preferred-language="en" data-show-current-waittime="true">
+    </hostme-widget-waiting-list>
+    <hostme-widget-waiting-list data-hide-header="true" data-hostme-id="2145" data-widget-type="hozintal" data-allow-fast-booking="true" data-preferred-language="en" data-show-current-waittime="true">
+    </hostme-widget-waiting-list>
+
+    <hostme-widget-delivery data-hostme-id="2145" data-widget-type="horizontal" data-allow-fast-booking="true" data-preferred-language="en">
+    </hostme-widget-delivery>
+    <hostme-widget-delivery data-hide-header="true" data-hostme-id="2145" data-widget-type="hozintal" data-allow-fast-booking="true" data-preferred-language="en" data-show-current-waittime="true">
+    </hostme-widget-delivery>
   </body>
 </html>
